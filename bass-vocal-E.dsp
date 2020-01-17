@@ -41,4 +41,3 @@ process =  hgroup("E FORMANTICO", Ebassf1, Ebassf2, Ebassf3, Ebassf4, Ebassf5 :>
  // 600 1040 2250 2450 2750 (frequenze)
  // 60 70 110 120 130 (larghezza di banda Hz)
  // 0 -7 -9 -9 -20 (decibel)
- // a casa: far suonare la vocale E con questi parametri
