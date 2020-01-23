@@ -52,8 +52,3 @@ process =  no.noise <: hgroup("A FORMANTICO", Ebassf1, Ebassf2, Ebassf3, Ebassf4
  // 600 1040 2250 2450 2750 (frequenze)
  // 60 70 110 120 130 (larghezza di banda Hz)
  // 0 -7 -9 -9 -20 (decibel)
-
- // vocale E voce di basso
- // 400 1620 2400 2800 3100
- // 40 80 100 120 120 
- // 0 -12 -9 -12 -18
