@@ -45,9 +45,9 @@ Ebassf5 = fi.highpass(order, fcut): fi.lowpass(order, fcut): *(gain) : meter
 };
 
 outmeter(x) = attach(x, an.amp_follower(0.150, x) : ba.linear2db : hbargraph("[02] OUTMETER [unit:dB]", -70, +5));
-process =  no.noise <: hgroup("E FORMANTICO", Ebassf1, Ebassf2, Ebassf3, Ebassf4, Ebassf5) :>outmeter ;
+process =  no.noise <: hgroup("U FORMANTICO", Ebassf1, Ebassf2, Ebassf3, Ebassf4, Ebassf5) :>outmeter ;
 
- // vocale O voce di basso
+ // vocale U voce di basso
  // 350 600 2400 2675 2950 (frequenza)
  // 40 80 100 120 120 (larghezza di banda)
  // 0 -20 -32 -28 -36 (decibel)
