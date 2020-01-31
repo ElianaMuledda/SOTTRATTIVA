@@ -16,7 +16,7 @@ Ebassf2 = fi.highpass(order, fcut): fi.lowpass(order, fcut) : *(gain) : meter
     order = 64;
     fcut = 600;
     f2group(x) = hgroup("[02] f2", x);
-    gain = f2group(vslider("[01] GAIN", 17.3, -96, +12, 0.1)) : ba.db2linear : si.smoo;
+    gain = f2group(vslider("[01] GAIN", 8.3, -96, +12, 0.1)) : ba.db2linear : si.smoo;
     meter(x) = f2group(attach(x, an.amp_follower(0.5, x) :ba.linear2db : vbargraph("[02] METER [unit:dB]", -70, +5)));
 };
 Ebassf3 = fi.highpass(order, fcut): fi.lowpass(order, fcut): *(gain) : meter 
